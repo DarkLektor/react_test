@@ -74,6 +74,7 @@ function Cart({page}) {
                     <div className="cart_item"  key={index}>
                         <img src={item.img[0]} alt="Cart img" />
                         <div className="cart_information">
+                            <p> asdasdasd</p>
                             <h3 className="prod_name">{item.name}</h3>
                             <p className="prod_price">{item.price}</p>
                             <CartForm obj={item}

@@ -80,6 +80,7 @@ function CartForm({obj, noCart, cartIndex}) {
     return (
         <form className="cart_form" onSubmit={(e) => onSubmitCart(e, obj)}>
                 <div className="colors">
+                    <p>ssssss</p>
                     <p className="colors_title">
                         {locale === 'en' ? 'COLOR: ' : 'ЦВЕТ: '}
                         <span>{selectColor}</span>
